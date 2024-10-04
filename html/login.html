@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - The Gallery Cafe</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Gallery Cafe</h1>
+        <nav>
+            <ul>
+                <li><a href="/gallerycafe/html/index.html">Home</a></li>
+                <li class="dropmenu">
+                    <a href="#">Menu <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropmenu-content">
+                        <li><a href="/gallerycafe/html/srilankan.html?cuisine=sl">Sri Lankan</a></li>
+                        <li><a href="/gallerycafe/html/indian.html?cuisine=in">Indian</a></li>
+                        <li><a href="/gallerycafe/html/italian.html?cuisine=it">Italian</a></li>
+                        <li><a href="/gallerycafe/html/chinese.html?cuisine=ch">Chinese</a></li>
+                        <li><a href="/gallerycafe/html/beverages.html?cuisine=bv">Beverages</a></li>
+                        <li><a href="/gallerycafe/html/desserts.html?cuisine=ds">Desserts</a></li>
+                    </ul>
+                </li>
+                <li><a href="/gallerycafe/html/about.html">About</a></li>
+                <li><a href="/gallerycafe/html/contact.html">Contact</a></li>
+                <li class="login"><a href="/gallerycafe/html/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="login">
+        <h2>Login to The Gallery Café</h2>
+        <form id="login-form">
+            <label for="uName1">Username:</label><br>
+            <input type="text" id="uName1" name="uName1" required><br><br>
+            
+            <label for="pWord1">Password:</label><br>
+            <input type="password" id="pWord1" name="pWord1" required><br><br>
+            
+            <button type="submit" class="button">Login</button>
+            <a href="/gallerycafe/html/register.html" class="button">Create Account</a>
+        </form>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 The Gallery Cafe. All rights reserved.</p>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>
